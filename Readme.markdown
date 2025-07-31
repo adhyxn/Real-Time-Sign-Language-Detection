@@ -111,7 +111,7 @@ real-time-sign-language-detection/
 
 5. Prepare the Dataset
 
-    Collect and label sign language images using tools like LabelImg.
+    Use the project.ipynb file to start the webcam and collect and label sign language images using LabelImg.
    
     Organize the dataset into training and testing sets.
    
