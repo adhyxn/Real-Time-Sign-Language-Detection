@@ -80,6 +80,7 @@ real-time-sign-language-detection/
     • Install Anaconda to install tensorflow further and create a custom python environment.
     
     • Install Labelimg from github.
+       https://github.com/HumanSignal/labelImg.git
     
     • Install tensorflow 2.10
     
@@ -91,21 +92,21 @@ real-time-sign-language-detection/
     
     • Other dependencies
     
-    pip install opencv-python numpy pillow
+        pip install opencv-python numpy pillow
 
-3. Install TensorFlow Object Detection API (Follow these steps to set up the Object Detection API):
+4. Install TensorFlow Object Detection API (Follow these steps to set up the Object Detection API):
 
-    git clone https://github.com/tensorflow/models.git
+       git clone https://github.com/tensorflow/models.git
    
-    cd models/research
+        cd models/research
    
-    protoc object_detection/protos/\*.proto --python_out=.
+        protoc object_detection/protos/\*.proto --python_out=.
    
-    cp object_detection/packages/tf2/setup.py
+        cp object_detection/packages/tf2/setup.py
    
-    pip install .
+        pip install .
    
-    cd ../..
+        cd ../..
 
 5. Prepare the Dataset
 
@@ -123,7 +124,7 @@ real-time-sign-language-detection/
 
     Run the training script, specifying the configuration file and output directory.
 
-    python Tensorflow/models/research/object_detection/model_main_tf2.py --model_dir=Tensorflow/workspace/models/my_ssd_mobnet --pipeline_config_path=Tensorflow/workspace/models/my_ssd_mobnet/pipeline.config --        num_train_steps=10000
+        python Tensorflow/models/research/object_detection/model_main_tf2.py --model_dir=Tensorflow/workspace/models/my_ssd_mobnet --pipeline_config_path=Tensorflow/workspace/models/my_ssd_mobnet/pipeline.config --        num_train_steps=10000
 
 7. Export the Trained Model
 
