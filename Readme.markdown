@@ -77,54 +77,61 @@ real-time-sign-language-detection/
 
 2. Install prerequisites and dependencies
 
-• Install Anaconda to install tensorflow further and create a custom python environment.
-
-• Install Labelimg from github.
-
-• Install tensorflow 2.10
-
-pip install tensorflow==2.10.0
-
-• Install protoc 3.20.3
-
-• Install protobuf 3.20.3
-
-• Other dependencies
-
-pip install opencv-python numpy pillow
+    • Install Anaconda to install tensorflow further and create a custom python environment.
+    
+    • Install Labelimg from github.
+    
+    • Install tensorflow 2.10
+    
+    pip install tensorflow==2.10.0
+    
+    • Install protoc 3.20.3
+    
+    • Install protobuf 3.20.3
+    
+    • Other dependencies
+    
+    pip install opencv-python numpy pillow
 
 3. Install TensorFlow Object Detection API (Follow these steps to set up the Object Detection API):
 
-git clone https://github.com/tensorflow/models.git
-cd models/research
-protoc object_detection/protos/\*.proto --python_out=.
-cp object_detection/packages/tf2/setup.py .
-pip install .
-cd ../..
+    git clone https://github.com/tensorflow/models.git
+   
+    cd models/research
+   
+    protoc object_detection/protos/\*.proto --python_out=.
+   
+    cp object_detection/packages/tf2/setup.py
+   
+    pip install .
+   
+    cd ../..
 
-4. Prepare the Dataset
+5. Prepare the Dataset
 
-Collect and label sign language images using tools like LabelImg.
-Organize the dataset into training and testing sets.
-Convert annotations to TFRecord format (refer to TensorFlow Object Detection API documentation).
+    Collect and label sign language images using tools like LabelImg.
+   
+    Organize the dataset into training and testing sets.
+   
+    Convert annotations to TFRecord format (refer to TensorFlow Object Detection API documentation).
 
-5. Configure the Model
+6. Configure the Model
 
-Update the model configuration file (e.g., pipeline.config) with paths to the pre-trained model, dataset, and other parameters.
+    Update the model configuration file (e.g., pipeline.config) with paths to the pre-trained model, dataset, and other parameters.
 
 6. Train the Model
 
-Run the training script, specifying the configuration file and output directory.
+    Run the training script, specifying the configuration file and output directory.
 
-python Tensorflow/models/research/object_detection/model_main_tf2.py --model_dir=Tensorflow/workspace/models/my_ssd_mobnet --pipeline_config_path=Tensorflow/workspace/models/my_ssd_mobnet/pipeline.config --num_train_steps=10000
+    python Tensorflow/models/research/object_detection/model_main_tf2.py --model_dir=Tensorflow/workspace/models/my_ssd_mobnet --pipeline_config_path=Tensorflow/workspace/models/my_ssd_mobnet/pipeline.config --        num_train_steps=10000
 
 7. Export the Trained Model
 
-Export the trained model for inference.
+    Export the trained model for inference.
 
 8. Run Real-Time Detection
 
-Use the provided inference script to perform real-time detection with a webcam.
+    Use the provided inference script to perform real-time detection with a webcam.
 
 ## Acknowledgments
 
