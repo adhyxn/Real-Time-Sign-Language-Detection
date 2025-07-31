@@ -98,15 +98,15 @@ real-time-sign-language-detection/
 
        git clone https://github.com/tensorflow/models.git
    
-        cd models/research
+       cd models/research
    
-        protoc object_detection/protos/\*.proto --python_out=.
+       protoc object_detection/protos/\*.proto --python_out=.
    
-        cp object_detection/packages/tf2/setup.py
+       cp object_detection/packages/tf2/setup.py
    
-        pip install .
+       pip install .
    
-        cd ../..
+       cd ../..
 
 5. Prepare the Dataset
 
