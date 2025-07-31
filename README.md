@@ -42,6 +42,7 @@ real-time-sign-language-detection/
 │   │   └── scripts/
 │   │       └── generate_tfrecord.py
 ├── RealTimeSignLanguageDetection.ipynb  # Main notebook
+├── requirements.txt                    # Dependencies
 └── README.md                           # This file
 
 
