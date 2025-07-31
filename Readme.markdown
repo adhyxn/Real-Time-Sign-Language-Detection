@@ -71,16 +71,17 @@ real-time-sign-language-detection/
 
 1. Clone the repository
 
-    git clone https://github.com/adhyxn/Real-Time-Sign-Language-Detection.git
+        git clone https://github.com/adhyxn/Real-Time-Sign-Language-Detection.git
     
-    cd real-time-sign-language-detection
+        cd real-time-sign-language-detection
 
 2. Install prerequisites and dependencies
 
     • Install Anaconda to install tensorflow further and create a custom python environment.
     
     • Install Labelimg from github.
-       https://github.com/HumanSignal/labelImg.git
+
+    https://github.com/HumanSignal/labelImg.git
     
     • Install tensorflow 2.10
     
