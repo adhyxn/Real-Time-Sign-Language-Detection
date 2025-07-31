@@ -14,19 +14,19 @@ This project implements a real-time sign language detection system using TensorF
 
 ## Tech Stack
 
-•	TensorFlow: Machine learning framework for model development.
+-	TensorFlow: Machine learning framework for model development.
 
-•	TensorFlow Object Detection API: For building and deploying the detection model.
+-	TensorFlow Object Detection API: For building and deploying the detection model.
 
-•	Python: Core programming language for implementation.
+-	Python: Core programming language for implementation.
 
-•	Computer Vision: Techniques for image processing and gesture recognition.
+-	Computer Vision: Techniques for image processing and gesture recognition.
 
-•	Deep Learning: Neural networks for model training.
+-	Deep Learning: Neural networks for model training.
 
-•	Transfer Learning: Pre-trained models to improve performance.
+-	Transfer Learning: Pre-trained models to improve performance.
 
-•	Labelimg: For dataset preparation and annotation.
+-	Labelimg: For dataset preparation and annotation.
 
 
 ## Prerequisites
@@ -135,10 +135,10 @@ real-time-sign-language-detection/
 
 ## Acknowledgments
 
-• TensorFlow Object Detection API
+- TensorFlow Object Detection API
 
-• OpenCV
+- OpenCV
 
-• Labelimg
+- Labelimg
 
-• TensorFlow Model Zoo for pretrained models
+- TensorFlow Model Zoo for pretrained models
