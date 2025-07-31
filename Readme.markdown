@@ -83,7 +83,7 @@ real-time-sign-language-detection/
     
     • Install tensorflow 2.10
     
-    pip install tensorflow==2.10.0
+       pip install tensorflow==2.10.0
     
     • Install protoc 3.20.3
     
