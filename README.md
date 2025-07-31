@@ -23,24 +23,20 @@ Tech Stack
 
 Project Structure
 
-real-time-sign-language-detection/
-├── Tensorflow/
-│   ├── workspace/
-│   │   ├── annotations/
-│   │   │   ├── label_map.pbtxt
-│   │   │   ├── train.record
-│   │   │   └── test.record
-│   │   ├── images/
-│   │   │   ├── train/
-│   │   │   └── test/
-│   │   ├── models/
-│   │   │   └── my_ssd_mobnet/
-│   │   │       ├── pipeline.config
-│   │   │       └── ckpt-*
-│   │   ├── pre-trained-models/
-│   │   │   └── ssd_mobilenet_v2_fpnlite_320x320_coco17_tpu-8/
-│   │   └── scripts/
-│   │       └── generate_tfrecord.py
-├── RealTimeSignLanguageDetection.ipynb  # Main notebook
-└── README.md                           # Readme file
+Tensorflow/
+├── workspace/
+│   ├── annotations/
+│   │   ├── label_map.pbtxt
+│   │   ├── train.record
+│   │   └── test.record
+│   ├── images/
+│   │   ├── train/
+│   │   └── test/
+│   ├── models/
+│   │   └── my_ssd_mobnet/
+│   └── pre-trained-models/
+├── scripts/
+│   └── generate_tfrecord.py
+└── RealTimeSignLanguageDetection.ipynb
+
 
