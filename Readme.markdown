@@ -14,13 +14,20 @@ This project implements a real-time sign language detection system using TensorF
 
 ## Tech Stack
 
-TensorFlow: Machine learning framework for model development.
-TensorFlow Object Detection API: For building and deploying the detection model.
-Python: Core programming language for implementation.
-Computer Vision: Techniques for image processing and gesture recognition.
-Deep Learning: Neural networks for model training.
-Transfer Learning: Pre-trained models to improve performance.
-Labelimg: For dataset preparation and annotation.
+•	TensorFlow: Machine learning framework for model development.
+
+•	TensorFlow Object Detection API: For building and deploying the detection model.
+
+•	Python: Core programming language for implementation.
+
+•	Computer Vision: Techniques for image processing and gesture recognition.
+
+•	Deep Learning: Neural networks for model training.
+
+•	Transfer Learning: Pre-trained models to improve performance.
+
+•	Labelimg: For dataset preparation and annotation.
+
 
 ## Prerequisites
 
@@ -64,9 +71,9 @@ real-time-sign-language-detection/
 
 1. Clone the repository
 
-git clone https://github.com/adhyxn/Real-Time-Sign-Language-Detection.git
-
-cd real-time-sign-language-detection
+    git clone https://github.com/adhyxn/Real-Time-Sign-Language-Detection.git
+    
+    cd real-time-sign-language-detection
 
 2. Install prerequisites and dependencies
 
